@@ -18,4 +18,9 @@
     <style name="groupStyledeep_purple_A400cornerRadius">
         <item name="android:background">@drawable/rectangle_bg_deep_purple_a400_radius_16_24</item>
     </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
 </resources>
