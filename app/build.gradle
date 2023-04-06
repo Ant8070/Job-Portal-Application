@@ -2,7 +2,7 @@ plugins {
     id 'com.android.application'
     id 'com.google.gms.google-services'
 }
-
+apply plugin: 'com.google.gms.google-services'
 android {
     namespace 'com.example.madprojectfinal'
     compileSdk 33
@@ -40,4 +40,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     implementation platform('com.google.firebase:firebase-bom:31.4.0')
     implementation 'com.google.android.gms:play-services-auth:20.5.0'
+
 }
