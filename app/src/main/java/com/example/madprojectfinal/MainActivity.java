@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
 
         sendButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
+
                 Intent intent = new Intent(MainActivity.this, Login.class);
                 startActivity(intent);
             }

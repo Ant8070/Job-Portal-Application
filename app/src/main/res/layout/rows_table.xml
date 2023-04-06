@@ -784,9 +784,9 @@
                                 android:layout_marginTop="@dimen/_8pxv"
                                 android:layout_marginBottom="@dimen/_8pxv"
                                 android:scaleType="fitXY"
-                                android:src="@drawable/img_arrowdown"
+                                android:src="@drawable/img_trashblack"
                                 tools:ignore="ContentDescription"
-                                tools:src="@drawable/img_arrowdown" />
+                                tools:src="@drawable/img_trashblack" />
 
                             <TextView
                                 android:id="@+id/txtDuration4"

@@ -39,4 +39,14 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="lbl_job_description">Job Description</string>
+    <string name="lbl_job_details">Job Details</string>
+    <string name="msg_3_years_experie">3 years experience
+Degree in Computer Science, Psychology, Design or any other related fields.
+Proficiency in User Personas, Competitive Analysis, Empathy Maps and Information Architecture.</string>
+    <string name="msg_skills_requir">Skills &amp; Requirements</string>
+    <string name="msg_in_a_ux_designe">"In a UX Designer job, you'll need both types of skills to develop the next generation of products. You'll partner with Researchers and Designers to define and deliver new features."</string>
+    <string name="lbl_apply_now">Apply Now</string>
+    <string name="lbl_save">Save</string>
 </resources>

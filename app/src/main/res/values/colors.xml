@@ -21,4 +21,7 @@
     <color name="gray_900">#1f1f1f</color>
     <color name="white_A700">#ffffff</color>
     <color name="black_900_26">#26000000</color>
+    <color name="yellow_700">#fcc636</color>
+    <color name="white_A700_19">#19ffffff</color>
+    <color name="deep_purple_A400">#5424fd</color>
 </resources>
