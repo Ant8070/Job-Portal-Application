@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/activitymainpage"
+    android:background="@drawable/onboarding"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -26,7 +26,7 @@
         android:id="@+id/button"
         android:layout_width="229dp"
         android:layout_height="57dp"
-        android:layout_marginBottom="436dp"
+        android:layout_marginBottom="520dp"
         android:text="Start Searching"
         android:background = "@drawable/roundedbutton"
         android:fontFamily="@font/satoshi"

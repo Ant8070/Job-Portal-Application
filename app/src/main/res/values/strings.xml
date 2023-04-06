@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">MADProjectFinal</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="lbl_fulltime">Fulltime</string>
+    <string name="msg_graphic_designe">Graphic Designer</string>
+    <string name="lbl_remote">Remote</string>
+    <string name="lbl_new_york">New York</string>
+    <string name="lbl_view">View</string>
+    <string name="lbl_google">Google</string>
+    <string name="lbl_500k_mo">\u20b9500K/mo</string>
+    <string name="lbl_spotify">Spotify</string>
+    <string name="lbl_airbnb">Airbnb</string>
+    <string name="lbl_sr_ux_designer">Sr. UX Designer</string>
+    <string name="lbl_apply">Apply</string>
+    <string name="lbl_freshers">Freshers</string>
+    <string name="lbl_50k_mo">$50K/mo</string>
+    <string name="lbl_project_manager">Project Manager</string>
+    <string name="lbl_part_time">Part-time</string>
+    <string name="msg_posted_5_days_a">Posted 5 days ago</string>
+    <string name="msg_ux_designers_ar2">"UX Designers are the synthesis of design and development. They take Google's most innovative product concepts..."</string>
+    <string name="msg_posted_2_days_a">Posted 2 days ago</string>
+    <string name="msg_airbnb_was_born">Airbnb was born in 2007 when two Hosts welcomed three guests to their San Francisco home,...Read More</string>
+    <string name="lbl_3_years_exp">3 years exp.</string>
+    <string name="lbl_25k_mo">$25K/mo</string>
+    <string name="lbl_find_jobs">Find Jobs</string>
+    <string name="msg_ux_designers_ar">"UX Designers are the synthesis of design and development. They take Google's most innovative product concepts...Read More"</string>
+    <string name="lbl_read_more">Read More</string>
+    <string name="msg_search_for_comp">Search for company or roles...</string>
+    <string name="lbl_1_5_years_exp">1-5 years exp.</string>
+    <string name="msg_airbnb_was_born2">Airbnb was born in 2007 when two Hosts welcomed three guests to their San Francisco home,...</string>
+    <string name="lbl_sydney">Sydney</string>
+    <string name="title_activity_jobs">JobsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

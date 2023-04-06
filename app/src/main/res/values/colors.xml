@@ -10,4 +10,15 @@
     <color name="colorPrimary">#00796b</color>
     <color name="colorPrimaryDark">#00695C</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="bluegray_900">#2b2b2b</color>
+    <color name="white_A700_7f">#7fffffff</color>
+    <color name="white_A700_33">#33ffffff</color>
+    <color name="white_A700_66">#66ffffff</color>
+    <color name="black_900_66">#66000000</color>
+    <color name="black_900">#000000</color>
+    <color name="white_A700_26">#26ffffff</color>
+    <color name="gray_800">#4d4d4d</color>
+    <color name="gray_900">#1f1f1f</color>
+    <color name="white_A700">#ffffff</color>
+    <color name="black_900_26">#26000000</color>
 </resources>
