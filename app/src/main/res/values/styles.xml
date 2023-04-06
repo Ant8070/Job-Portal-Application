@@ -122,4 +122,7 @@
     <style name="groupStyleyellow_700cornerRadius">
         <item name="android:background">@drawable/rectangle_bg_yellow_700_radius_24</item>
     </style>
+    <style name="groupStyleblue_700cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_blue_a700_radius_24</item>
+    </style>
 </resources>

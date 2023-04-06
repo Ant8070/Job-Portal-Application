@@ -2,32 +2,29 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
     <data/>
     <LinearLayout android:gravity="center_horizontal"
-        android:id="@+id/linearDetails0"
+        android:id="@+id/linearDetails"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:orientation="vertical" style="@style/groupStylegray_900">
         <LinearLayout android:gravity="center_vertical"
-            android:id="@+id/linearRowarrowleft0"
+            android:id="@+id/linearRowarrowleft"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/_24pxh"
             android:layout_marginStart="@dimen/_24pxh"
             android:layout_marginTop="@dimen/_69pxv"
             android:layout_width="wrap_content" android:orientation="horizontal">
-
-            <ImageButton
-                android:id="@+id/imageArrowleft0"
-                android:layout_width="@dimen/_20pxh"
+            <ImageButton android:id="@+id/imageArrowleft1"
                 android:layout_height="@dimen/_15pxh"
-                android:layout_marginStart="@dimen/_3pxh"
-                android:layout_marginTop="@dimen/_5pxv"
                 android:layout_marginBottom="@dimen/_5pxv"
+                android:layout_marginStart="@dimen/_3pxh"
                 android:background="null"
+                android:layout_marginTop="@dimen/_5pxv"
+                android:layout_width="@dimen/_20pxh"
                 android:scaleType="fitXY"
                 android:src="@drawable/img_arrowleft"
-                tools:ignore="ContentDescription,TouchTargetSizeCheck,SpeakableTextPresentCheck"
-                tools:src="@drawable/img_arrowleft" />
+                tools:ignore="ContentDescription" tools:src="@drawable/img_arrowleft"/>
             <TextView android:ellipsize="end"
-                android:id="@+id/txtJobDetails0"
+                android:id="@+id/txtJobDetails1"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_15pxh"
                 android:layout_weight="0.84" android:layout_width="0dp"
@@ -36,15 +33,15 @@
                 style="@style/txtSatoshimedium18" tools:text="@string/lbl_job_details"/>
         </LinearLayout>
         <LinearLayout android:gravity="start"
-            android:id="@+id/linearColumnsignal0"
+            android:id="@+id/linearColumnsignal1"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/_24pxh"
             android:layout_marginStart="@dimen/_24pxh"
             android:layout_marginTop="@dimen/_23pxv"
             android:layout_width="match_parent"
-            android:orientation="vertical" style="@style/groupStyleyellow_700cornerRadius">
+            android:orientation="vertical" style="@style/groupStyleblue_700cornerRadius">
             <LinearLayout android:gravity="start"
-                android:id="@+id/linearRowsignal0"
+                android:id="@+id/linearRowsignal"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_16pxh"
                 android:layout_marginStart="@dimen/_16pxh"
@@ -52,17 +49,17 @@
                 android:layout_width="wrap_content" android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/btnSignal0"
+                    android:id="@+id/btnSigna1l"
                     android:layout_width="@dimen/_48pxh"
                     android:layout_height="@dimen/_48pxh"
                     android:background="@drawable/rectangle_bg_gray_900_radius_8"
                     android:paddingHorizontal="@dimen/_10pxh"
                     android:paddingVertical="@dimen/_10pxv"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/img_signal"
+                    android:src="@drawable/img_google"
                     tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
                 <LinearLayout android:gravity="start"
-                    android:id="@+id/linearColumngraphicdesigne0"
+                    android:id="@+id/linearColumngraphicdesigne1"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_12pxh"
                     android:layout_marginTop="@dimen/_3pxv"
@@ -70,7 +67,7 @@
                     android:layout_width="1001000dp" android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/txtGraphicDesigne0"
+                        android:id="@+id/txtGraphicDesigne"
                         style="@style/txtSatoshibold18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -79,17 +76,17 @@
                         android:singleLine="true"
 
                         android:textColor="@color/black_900"
-                        android:text="@string/msg_graphic_designe"
-                        tools:text="@string/msg_graphic_designe" />
+                        android:text="@string/lbl_sr_ux_designer"
+                        tools:text="@string/lbl_sr_ux_designer" />
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txtSpotify0"
+                        android:id="@+id/txtGoogle1"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/_10pxh"
                         android:layout_marginTop="@dimen/_2pxv"
                         android:layout_width="wrap_content"
                         android:singleLine="true"
-                        android:text="@string/lbl_spotify"
-                        style="@style/txtSatoshiregular12" tools:text="@string/lbl_spotify"/>
+                        android:text="@string/lbl_google"
+                        style="@style/txtSatoshiregular12" tools:text="@string/lbl_google"/>
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -97,23 +94,23 @@
                         android:layout_marginEnd="@dimen/_10pxh"
                         android:layout_marginTop="@dimen/_2pxv"
                         android:singleLine="true"
-                        android:text="@string/lbl_spotify" tools:text="Apply"
+                        android:text="Apply" tools:text="Apply"
                         ></Button>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout android:gravity="start"
-                android:id="@+id/linearRow0"
+                android:id="@+id/linearRow"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_16pxh"
                 android:layout_marginStart="@dimen/_16pxh"
                 android:layout_marginTop="@dimen/_16pxv"
                 android:layout_width="match_parent" android:orientation="horizontal">
-                <LinearLayout android:id="@+id/linearRowlocation0"
+                <LinearLayout android:id="@+id/linearRowlocation1"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.32"
                     android:layout_width="0dp"
-                    android:orientation="horizontal" style="@style/groupStyleblack_900_26cornerRadius">
-                    <ImageView android:id="@+id/imageLocation0"
+                    android:orientation="horizontal" style="@style/groupStylewhite_A700_26cornerRadius">
+                    <ImageView android:id="@+id/imageLocation1"
                         android:layout_height="@dimen/_13pxh"
                         android:layout_marginBottom="@dimen/_7pxv"
                         android:layout_marginStart="@dimen/_15pxh"
@@ -121,9 +118,9 @@
                         android:layout_width="@dimen/_9pxh"
                         android:scaleType="fitXY"
                         android:src="@drawable/img_location_black_900"
-                        tools:ignore="ContentDescription" tools:src="@drawable/img_location_black_900"/>
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_location"/>
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txtRemote0"
+                        android:id="@+id/txtRemote1"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/_4pxv"
                         android:layout_marginEnd="@dimen/_12pxh"
@@ -131,28 +128,27 @@
                         android:layout_marginTop="@dimen/_5pxv"
                         android:layout_weight="0.83"
                         android:layout_width="0dp"
-                        android:textColor="@color/black_900"
                         android:singleLine="true"
                         android:text="@string/lbl_remote"
-                        style="@style/txtSatoshimedium13" tools:text="@string/lbl_remote"/>
+                        style="@style/txtSatoshimedium13" tools:text="@string/lbl_new_york"/>
                 </LinearLayout>
-                <LinearLayout android:id="@+id/linearRowtrash0"
+                <LinearLayout android:id="@+id/linearRowtrash1"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_8pxh"
                     android:layout_weight="0.35"
                     android:layout_width="0dp"
-                    android:orientation="horizontal" style="@style/groupStyleblack_900_26cornerRadius">
-                    <ImageView android:id="@+id/imageTrash0"
+                    android:orientation="horizontal" style="@style/groupStylewhite_A700_26cornerRadius">
+                    <ImageView android:id="@+id/imageTrash1"
                         android:layout_height="@dimen/_12pxh"
                         android:layout_marginBottom="@dimen/_8pxv"
                         android:layout_marginStart="@dimen/_12pxh"
                         android:layout_marginTop="@dimen/_8pxv"
                         android:layout_width="@dimen/_14pxh"
                         android:scaleType="fitXY"
-                        android:src="@drawable/img_trash"
-                        tools:ignore="ContentDescription" tools:src="@drawable/img_trash"/>
+                        android:src="@drawable/img_arrowdown"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_arrowdown"/>
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txtFreshers0"
+                        android:id="@+id/txtFreshers"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/_4pxv"
                         android:layout_marginEnd="@dimen/_12pxh"
@@ -161,18 +157,16 @@
                         android:layout_weight="0.77"
                         android:layout_width="0dp"
                         android:singleLine="true"
-                        android:text="@string/lbl_freshers"
-
-                        android:textColor="@color/black_900"
-                        style="@style/txtSatoshimedium13" tools:text="@string/lbl_freshers"/>
+                        android:text="@string/lbl_3_years_exp"
+                        style="@style/txtSatoshimedium13" tools:text="@string/lbl_3_years_exp"/>
                 </LinearLayout>
-                <LinearLayout android:id="@+id/linearRowclock0"
+                <LinearLayout android:id="@+id/linearRowclock"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_8pxh"
                     android:layout_weight="0.33"
                     android:layout_width="0dp"
-                    android:orientation="horizontal" style="@style/groupStyleblack_900_26cornerRadius">
-                    <ImageView android:id="@+id/imageClock0"
+                    android:orientation="horizontal" style="@style/groupStylewhite_A700_26cornerRadius">
+                    <ImageView android:id="@+id/imageClock"
                         android:layout_height="@dimen/_13pxh"
                         android:layout_marginBottom="@dimen/_7pxv"
                         android:layout_marginStart="@dimen/_13pxh"
@@ -180,9 +174,9 @@
                         android:layout_width="@dimen/_13pxh"
                         android:scaleType="fitXY"
                         android:src="@drawable/img_clock_black_900_13x13"
-                        tools:ignore="ContentDescription" tools:src="@drawable/img_clock_black_900_13x13"/>
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_clock"/>
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txtFulltime0"
+                        android:id="@+id/txtFulltime"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/_4pxv"
                         android:layout_marginEnd="@dimen/_12pxh"
@@ -191,21 +185,20 @@
                         android:layout_weight="0.78"
                         android:layout_width="0dp"
 
-                        android:textColor="@color/black_900"
                         android:singleLine="true"
                         android:text="@string/lbl_fulltime"
                         style="@style/txtSatoshimedium13" tools:text="@string/lbl_fulltime"/>
                 </LinearLayout>
             </LinearLayout>
-            <FrameLayout android:id="@+id/frameStackrectangle64420"
+            <FrameLayout android:id="@+id/frameStackrectangle6442"
                 android:layout_height="@dimen/_56pxv"
                 android:layout_marginTop="@dimen/_16pxv" android:layout_width="@dimen/_382pxh">
                 <View
                     android:background="@drawable/rectangle_bg_white_a700_radius_bl_25_br_21"
-                    android:id="@+id/viewRectangle64420"
+                    android:id="@+id/viewRectangle6442"
                     android:layout_gravity="start"
                     android:layout_height="@dimen/_57pxv" android:layout_width="@dimen/_382pxh"/>
-                <LinearLayout android:id="@+id/linearRowprice0"
+                <LinearLayout android:id="@+id/linearRowprice"
                     android:layout_gravity="bottom|center"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_14pxv"
@@ -213,14 +206,14 @@
                     android:layout_marginStart="@dimen/_16pxh"
                     android:layout_marginTop="@dimen/_14pxv"
                     android:layout_width="match_parent" android:orientation="horizontal">
-                    <LinearLayout android:id="@+id/linearRowclockOne0"
+                    <LinearLayout android:id="@+id/linearRowclockOne"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/_2pxv"
                         android:layout_marginStart="@dimen/_1pxh"
                         android:layout_marginTop="@dimen/_5pxv"
                         android:layout_weight="0.6"
                         android:layout_width="0dp" android:orientation="horizontal">
-                        <ImageView android:id="@+id/imageClockOne0"
+                        <ImageView android:id="@+id/imageClockOne"
                             android:layout_height="@dimen/_12pxh"
                             android:layout_marginBottom="@dimen/_4pxv"
                             android:layout_marginTop="@dimen/_1pxv"
@@ -229,7 +222,7 @@
                             android:src="@drawable/img_clock_black_900"
                             tools:ignore="ContentDescription" tools:src="@drawable/img_clock_black_900"/>
                         <TextView android:ellipsize="end"
-                            android:id="@+id/txtDuration0"
+                            android:id="@+id/txtDuration"
                             android:layout_height="wrap_content"
                             android:layout_width="1dp"
                             android:singleLine="true"
@@ -237,10 +230,10 @@
                             android:layout_weight="1"
                             android:textColor="@color/black_900"
                             android:text="@string/msg_posted_2_days_a"
-                            style="@style/txtSatoshimedium12" tools:text="@string/msg_posted_5_days_a"/>
+                            style="@style/txtSatoshimedium12" tools:text="@string/msg_posted_2_days_a"/>
                     </LinearLayout>
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txtPrice0"
+                        android:id="@+id/txtPrice"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/_125pxh"
                         android:layout_weight="0.4"
@@ -248,12 +241,12 @@
                         android:singleLine="true"
                         android:textColor="@color/black_900"
                         android:text="@string/lbl_50k_mo"
-                        style="@style/txtSatoshibold18" tools:text="@string/lbl_25k_mo"/>
+                        style="@style/txtSatoshibold18" tools:text="@string/lbl_50k_mo"/>
                 </LinearLayout>
             </FrameLayout>
         </LinearLayout>
         <LinearLayout android:gravity="start"
-            android:id="@+id/linearColumnvector0"
+            android:id="@+id/linearColumnvector"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/_24pxh"
             android:layout_marginStart="@dimen/_24pxh"
@@ -261,7 +254,7 @@
             android:layout_width="match_parent"
             android:orientation="vertical" style="@style/groupStylebluegray_900cornerRadius">
             <LinearLayout android:gravity="start"
-                android:id="@+id/linearRowvector0"
+                android:id="@+id/linearRowvector"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_20pxh"
                 android:layout_marginStart="@dimen/_20pxh"
@@ -269,7 +262,7 @@
                 android:layout_width="wrap_content" android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/btnVector0"
+                    android:id="@+id/btnVector"
                     android:layout_width="@dimen/_40pxh"
                     android:layout_height="@dimen/_40pxh"
                     android:background="@drawable/rectangle_bg_white_a700_19_radius_8"
@@ -279,7 +272,7 @@
                     android:src="@drawable/img_vector_white_a700"
                     tools:ignore="ContentDescription,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
                 <TextView android:ellipsize="end"
-                    android:id="@+id/txtJobDescription0"
+                    android:id="@+id/txtJobDescription"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_5pxv"
                     android:layout_marginStart="@dimen/_8pxh"
@@ -291,7 +284,7 @@
                     style="@style/txtSatoshibold18_1" tools:text="@string/lbl_job_description"/>
             </LinearLayout>
             <TextView android:gravity="center_horizontal"
-                android:id="@+id/txtDescription0"
+                android:id="@+id/txtDescription"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/_23pxv"
                 android:layout_marginEnd="@dimen/_20pxh"
@@ -301,7 +294,7 @@
                 android:text="@string/msg_in_a_ux_designe"
                 style="@style/txtSatoshiregular14" tools:text="@string/msg_in_a_ux_designe"/>
         </LinearLayout>
-        <LinearLayout android:id="@+id/linearColumnvectorOne0"
+        <LinearLayout android:id="@+id/linearColumnvectorOne"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/_24pxh"
             android:layout_marginStart="@dimen/_24pxh"
@@ -309,7 +302,7 @@
             android:layout_width="match_parent"
             android:orientation="vertical" style="@style/groupStylebluegray_900cornerRadius">
             <LinearLayout android:gravity="start"
-                android:id="@+id/linearRowvectorOne0"
+                android:id="@+id/linearRowvectorOne"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_20pxh"
                 android:layout_marginStart="@dimen/_20pxh"
@@ -317,7 +310,7 @@
                 android:layout_width="wrap_content" android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/btnVectorOne0"
+                    android:id="@+id/btnVectorOne"
                     android:layout_width="@dimen/_40pxh"
                     android:layout_height="@dimen/_40pxh"
                     android:background="@drawable/rectangle_bg_white_a700_19_radius_8"
@@ -327,7 +320,7 @@
                     android:src="@drawable/img_vector_white_a700_40x40"
                     tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
                 <TextView android:ellipsize="end"
-                    android:id="@+id/txtSkillsRequir0"
+                    android:id="@+id/txtSkillsRequir"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_5pxv"
                     android:layout_marginStart="@dimen/_8pxh"
@@ -339,7 +332,7 @@
                     style="@style/txtSatoshibold18_1" tools:text="@string/msg_skills_requir"/>
             </LinearLayout>
             <TextView android:gravity="center_horizontal"
-                android:id="@+id/txtDescriptionOne0"
+                android:id="@+id/txtDescriptionOne"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/_20pxv"
                 android:layout_marginEnd="@dimen/_20pxh"
@@ -349,7 +342,7 @@
                 android:text="@string/msg_3_years_experie"
                 style="@style/txtSatoshiregular14" tools:text="@string/msg_3_years_experie"/>
         </LinearLayout>
-        <FrameLayout android:id="@+id/frameStackshape0"
+        <FrameLayout android:id="@+id/frameStackshape"
             android:layout_gravity="center_horizontal"
             android:layout_height="@dimen/_48pxv"
             android:layout_marginBottom="@dimen/_29pxv"
@@ -357,7 +350,7 @@
             android:layout_marginStart="@dimen/_24pxh"
             android:layout_marginTop="@dimen/_123pxv" android:layout_width="@dimen/_382pxh">
             <View android:background="@color/white_A700"
-                android:id="@+id/viewShape0"
+                android:id="@+id/viewShape"
                 android:layout_gravity="center"
                 android:layout_height="@dimen/_8pxv"
                 android:layout_marginBottom="@dimen/_20pxv"
@@ -366,7 +359,7 @@
                 android:layout_marginTop="@dimen/_20pxv" android:layout_width="@dimen/_324pxh"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:ellipsize="end" android:gravity="center"
-                android:id="@+id/btnSave0" android:layout_gravity="start"
+                android:id="@+id/btnSave" android:layout_gravity="start"
                 android:layout_height="@dimen/_48pxv"
                 android:layout_marginEnd="@dimen/_10pxh"
                 android:layout_width="@dimen/_123pxh"
@@ -378,14 +371,14 @@
                 android:text="@string/lbl_save"
                 android:textAllCaps="false"
                 style="@style/btnSolidRounded" tools:text="@string/lbl_save"/>
-            <LinearLayout android:id="@+id/linearRowapplynow0"
+            <LinearLayout android:id="@+id/linearRowapplynow"
                 android:layout_gravity="end"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_10pxh"
                 android:layout_width="match_parent"
                 android:orientation="horizontal" style="@style/groupStyledeep_purple_A400cornerRadius">
                 <TextView android:ellipsize="end"
-                    android:id="@+id/txtApplyNow0"
+                    android:id="@+id/txtApplyNow"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_11pxv"
                     android:layout_marginStart="@dimen/_67pxh"
@@ -394,7 +387,7 @@
                     android:layout_width="0dp" android:singleLine="true"
                     android:text="@string/lbl_apply_now"
                     style="@style/txtSatoshibold16" tools:text="@string/lbl_apply_now"/>
-                <ImageView android:id="@+id/imageArrowleftOne0"
+                <ImageView android:id="@+id/imageArrowleftOne"
                     android:layout_height="@dimen/_12pxh"
                     android:layout_marginBottom="@dimen/_17pxv"
                     android:layout_marginEnd="@dimen/_71pxh"
