@@ -101,7 +101,7 @@
                         android:layout_marginEnd="@dimen/_10pxh"
                         android:layout_marginTop="@dimen/_2pxv"
                         android:singleLine="true"
-                        android:text="@string/lbl_spotify" tools:text="Apply"
+                        android:text="@string/lbl_apply" tools:text="Apply"
                         ></Button>
                 </LinearLayout>
             </LinearLayout>
