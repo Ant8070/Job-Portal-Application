@@ -1,6 +1,8 @@
 package com.example.madprojectfinal;
 
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,9 +15,11 @@ import java.util.List;
 
 public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     private List<RowsTable> mData;
+    private Context context;
 
     public Adapter(MainPage mainPage, List<RowsTable> data) {
         mData = data;
+        context = mainPage;
     }
 
     @Override
@@ -28,7 +32,28 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        RowsTable item = mData.get(position);
+
+        holder.txtview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, Google.class);
+                context.startActivity(intent);
+            }
+
+        }
+        );
+        holder.txtview2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, Airbnb.class);
+                context.startActivity(intent);}
+            });
+        holder.txtview3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, Spotify.class);
+                context.startActivity(intent);}
+        });
     }
 
 
@@ -140,6 +165,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
             txtPrice3 = itemView.findViewById(R.id.txtPrice4);
             txtview3 = itemView.findViewById(R.id.txtView6);
             imageUpload3 = itemView.findViewById(R.id.imageUpload4);
+
         }
 
 
