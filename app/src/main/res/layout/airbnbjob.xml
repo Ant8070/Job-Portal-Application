@@ -2,29 +2,32 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
     <data/>
     <LinearLayout android:gravity="center_horizontal"
-        android:id="@+id/linearDetails1"
+        android:id="@+id/linearDetails2"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:orientation="vertical" style="@style/groupStylegray_900">
         <LinearLayout android:gravity="center_vertical"
-            android:id="@+id/linearRowarrowleft1"
+            android:id="@+id/linearRowarrowleft2"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/_24pxh"
             android:layout_marginStart="@dimen/_24pxh"
             android:layout_marginTop="@dimen/_69pxv"
             android:layout_width="wrap_content" android:orientation="horizontal">
-            <ImageButton android:id="@+id/imageArrowleft1"
-                android:layout_height="@dimen/_15pxh"
-                android:layout_marginBottom="@dimen/_5pxv"
-                android:layout_marginStart="@dimen/_3pxh"
-                android:background="null"
-                android:layout_marginTop="@dimen/_5pxv"
+
+            <ImageButton
+                android:id="@+id/imageArrowleft2"
                 android:layout_width="@dimen/_20pxh"
+                android:layout_height="@dimen/_15pxh"
+                android:layout_marginStart="@dimen/_3pxh"
+                android:layout_marginTop="@dimen/_5pxv"
+                android:layout_marginBottom="@dimen/_5pxv"
+                android:background="null"
                 android:scaleType="fitXY"
                 android:src="@drawable/img_arrowleft"
-                tools:ignore="ContentDescription" tools:src="@drawable/img_arrowleft"/>
+                tools:ignore="ContentDescription,TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                tools:src="@drawable/img_arrowleft" />
             <TextView android:ellipsize="end"
-                android:id="@+id/txtJobDetails1"
+                android:id="@+id/txtJobDetails2"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_15pxh"
                 android:layout_weight="0.84" android:layout_width="0dp"
@@ -33,15 +36,15 @@
                 style="@style/txtSatoshimedium18" tools:text="@string/lbl_job_details"/>
         </LinearLayout>
         <LinearLayout android:gravity="start"
-            android:id="@+id/linearColumnsignal1"
+            android:id="@+id/linearColumnsignal2"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/_24pxh"
             android:layout_marginStart="@dimen/_24pxh"
             android:layout_marginTop="@dimen/_23pxv"
             android:layout_width="match_parent"
-            android:orientation="vertical" style="@style/groupStyleblue_700cornerRadius">
+            android:orientation="vertical" style="@style/groupStylered_700cornerRadius">
             <LinearLayout android:gravity="start"
-                android:id="@+id/linearRowsignal1"
+                android:id="@+id/linearRowsignal2"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_16pxh"
                 android:layout_marginStart="@dimen/_16pxh"
@@ -49,44 +52,43 @@
                 android:layout_width="wrap_content" android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/btnSigna1l"
+                    android:id="@+id/btnSignal2"
                     android:layout_width="@dimen/_48pxh"
                     android:layout_height="@dimen/_48pxh"
                     android:background="@drawable/rectangle_bg_gray_900_radius_8"
                     android:paddingHorizontal="@dimen/_10pxh"
                     android:paddingVertical="@dimen/_10pxv"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/img_google"
+                    android:src="@drawable/img_airbnb"
                     tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
                 <LinearLayout android:gravity="start"
-                    android:id="@+id/linearColumngraphicdesigne1"
+                    android:id="@+id/linearColumngraphicdesigne2"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_12pxh"
                     android:layout_marginTop="@dimen/_3pxv"
                     android:layout_weight="3"
-                    android:layout_width="1001000dp" android:orientation="vertical">
+                    android:layout_width="100000dp" android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/txtGraphicDesigne1"
+                        android:id="@+id/txtGraphicDesigne2"
                         style="@style/txtSatoshibold18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ellipsize="end"
                         android:layout_weight="1.2"
                         android:singleLine="true"
-
-                        android:textColor="@color/black_900"
-                        android:text="@string/lbl_sr_ux_designer"
-                        tools:text="@string/lbl_sr_ux_designer" />
+                        android:text="@string/lbl_project_manager"
+                        tools:text="@string/lbl_project_manager" />
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txtGoogle1"
+                        android:id="@+id/txtGoogle2"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/_10pxh"
                         android:layout_marginTop="@dimen/_2pxv"
                         android:layout_width="wrap_content"
                         android:singleLine="true"
-                        android:text="@string/lbl_google"
-                        style="@style/txtSatoshiregular12" tools:text="@string/lbl_google"/>
+                        android:textColor="@color/white_A700"
+                        android:text="@string/lbl_airbnb"
+                        style="@style/txtSatoshiregular12" tools:text="@string/lbl_airbnb"/>
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -94,23 +96,23 @@
                         android:layout_marginEnd="@dimen/_10pxh"
                         android:layout_marginTop="@dimen/_2pxv"
                         android:singleLine="true"
-                        android:text="Apply" tools:text="Apply"
+                        android:text="@string/lbl_apply" tools:text="@string/lbl_apply"
                         ></Button>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout android:gravity="start"
-                android:id="@+id/linearRow1"
+                android:id="@+id/linearRow2"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_16pxh"
                 android:layout_marginStart="@dimen/_16pxh"
                 android:layout_marginTop="@dimen/_16pxv"
                 android:layout_width="match_parent" android:orientation="horizontal">
-                <LinearLayout android:id="@+id/linearRowlocation1"
+                <LinearLayout android:id="@+id/linearRowlocation2"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.32"
                     android:layout_width="0dp"
                     android:orientation="horizontal" style="@style/groupStylewhite_A700_26cornerRadius">
-                    <ImageView android:id="@+id/imageLocation1"
+                    <ImageView android:id="@+id/imageLocation2"
                         android:layout_height="@dimen/_13pxh"
                         android:layout_marginBottom="@dimen/_7pxv"
                         android:layout_marginStart="@dimen/_15pxh"
@@ -120,7 +122,7 @@
                         android:src="@drawable/img_location_black_900"
                         tools:ignore="ContentDescription" tools:src="@drawable/img_location"/>
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txtRemote1"
+                        android:id="@+id/txtRemote2"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/_4pxv"
                         android:layout_marginEnd="@dimen/_12pxh"
@@ -129,16 +131,16 @@
                         android:layout_weight="0.83"
                         android:layout_width="0dp"
                         android:singleLine="true"
-                        android:text="@string/lbl_remote"
-                        style="@style/txtSatoshimedium13" tools:text="@string/lbl_new_york"/>
+                        android:text="@string/lbl_sydney"
+                        style="@style/txtSatoshimedium13" tools:text="@string/lbl_sydney"/>
                 </LinearLayout>
-                <LinearLayout android:id="@+id/linearRowtrash1"
+                <LinearLayout android:id="@+id/linearRowtrash2"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_8pxh"
-                    android:layout_weight="0.35"
+                    android:layout_weight="0.5"
                     android:layout_width="0dp"
                     android:orientation="horizontal" style="@style/groupStylewhite_A700_26cornerRadius">
-                    <ImageView android:id="@+id/imageTrash1"
+                    <ImageView android:id="@+id/imageTrash2"
                         android:layout_height="@dimen/_12pxh"
                         android:layout_marginBottom="@dimen/_8pxv"
                         android:layout_marginStart="@dimen/_12pxh"
@@ -148,25 +150,25 @@
                         android:src="@drawable/img_arrowdown"
                         tools:ignore="ContentDescription" tools:src="@drawable/img_arrowdown"/>
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txtFreshers1"
+                        android:id="@+id/txtFreshers2"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/_4pxv"
                         android:layout_marginEnd="@dimen/_12pxh"
                         android:layout_marginStart="@dimen/_6pxh"
                         android:layout_marginTop="@dimen/_5pxv"
-                        android:layout_weight="0.77"
+                        android:layout_weight="0.8"
                         android:layout_width="0dp"
                         android:singleLine="true"
                         android:text="@string/lbl_3_years_exp"
-                        style="@style/txtSatoshimedium13" tools:text="@string/lbl_3_years_exp"/>
+                        style="@style/txtSatoshimedium13" tools:text="@string/lbl_1_5_years_exp"/>
                 </LinearLayout>
-                <LinearLayout android:id="@+id/linearRowclock1"
+                <LinearLayout android:id="@+id/linearRowclock2"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_8pxh"
                     android:layout_weight="0.33"
                     android:layout_width="0dp"
                     android:orientation="horizontal" style="@style/groupStylewhite_A700_26cornerRadius">
-                    <ImageView android:id="@+id/imageClock1"
+                    <ImageView android:id="@+id/imageClock2"
                         android:layout_height="@dimen/_13pxh"
                         android:layout_marginBottom="@dimen/_7pxv"
                         android:layout_marginStart="@dimen/_13pxh"
@@ -176,7 +178,7 @@
                         android:src="@drawable/img_clock_black_900_13x13"
                         tools:ignore="ContentDescription" tools:src="@drawable/img_clock"/>
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txtFulltime1"
+                        android:id="@+id/txtFulltime2"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/_4pxv"
                         android:layout_marginEnd="@dimen/_12pxh"
@@ -190,15 +192,15 @@
                         style="@style/txtSatoshimedium13" tools:text="@string/lbl_fulltime"/>
                 </LinearLayout>
             </LinearLayout>
-            <FrameLayout android:id="@+id/frameStackrectangle64421"
+            <FrameLayout android:id="@+id/frameStackrectangle64422"
                 android:layout_height="@dimen/_56pxv"
                 android:layout_marginTop="@dimen/_16pxv" android:layout_width="@dimen/_382pxh">
                 <View
                     android:background="@drawable/rectangle_bg_white_a700_radius_bl_25_br_21"
-                    android:id="@+id/viewRectangle64421"
+                    android:id="@+id/viewRectangle64422"
                     android:layout_gravity="start"
                     android:layout_height="@dimen/_57pxv" android:layout_width="@dimen/_382pxh"/>
-                <LinearLayout android:id="@+id/linearRowprice1"
+                <LinearLayout android:id="@+id/linearRowprice2"
                     android:layout_gravity="bottom|center"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_14pxv"
@@ -206,14 +208,14 @@
                     android:layout_marginStart="@dimen/_16pxh"
                     android:layout_marginTop="@dimen/_14pxv"
                     android:layout_width="match_parent" android:orientation="horizontal">
-                    <LinearLayout android:id="@+id/linearRowclockOne1"
+                    <LinearLayout android:id="@+id/linearRowclockOne2"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/_2pxv"
                         android:layout_marginStart="@dimen/_1pxh"
                         android:layout_marginTop="@dimen/_5pxv"
                         android:layout_weight="0.6"
                         android:layout_width="0dp" android:orientation="horizontal">
-                        <ImageView android:id="@+id/imageClockOne1"
+                        <ImageView android:id="@+id/imageClockOne2"
                             android:layout_height="@dimen/_12pxh"
                             android:layout_marginBottom="@dimen/_4pxv"
                             android:layout_marginTop="@dimen/_1pxv"
@@ -222,7 +224,7 @@
                             android:src="@drawable/img_clock_black_900"
                             tools:ignore="ContentDescription" tools:src="@drawable/img_clock_black_900"/>
                         <TextView android:ellipsize="end"
-                            android:id="@+id/txtDuration1"
+                            android:id="@+id/txtDuration2"
                             android:layout_height="wrap_content"
                             android:layout_width="1dp"
                             android:singleLine="true"
@@ -230,10 +232,10 @@
                             android:layout_weight="1"
                             android:textColor="@color/black_900"
                             android:text="@string/msg_posted_2_days_a"
-                            style="@style/txtSatoshimedium12" tools:text="@string/msg_posted_2_days_a"/>
+                            style="@style/txtSatoshimedium12" tools:text="@string/msg_posted_5_days_a"/>
                     </LinearLayout>
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txtPrice1"
+                        android:id="@+id/txtPrice2"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/_125pxh"
                         android:layout_weight="0.4"
@@ -246,7 +248,7 @@
             </FrameLayout>
         </LinearLayout>
         <LinearLayout android:gravity="start"
-            android:id="@+id/linearColumnvector1"
+            android:id="@+id/linearColumnvector2"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/_24pxh"
             android:layout_marginStart="@dimen/_24pxh"
@@ -254,7 +256,7 @@
             android:layout_width="match_parent"
             android:orientation="vertical" style="@style/groupStylebluegray_900cornerRadius">
             <LinearLayout android:gravity="start"
-                android:id="@+id/linearRowvector1"
+                android:id="@+id/linearRowvector2"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_20pxh"
                 android:layout_marginStart="@dimen/_20pxh"
@@ -262,7 +264,7 @@
                 android:layout_width="wrap_content" android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/btnVector1"
+                    android:id="@+id/btnVector2"
                     android:layout_width="@dimen/_40pxh"
                     android:layout_height="@dimen/_40pxh"
                     android:background="@drawable/rectangle_bg_white_a700_19_radius_8"
@@ -272,7 +274,7 @@
                     android:src="@drawable/img_vector_white_a700"
                     tools:ignore="ContentDescription,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
                 <TextView android:ellipsize="end"
-                    android:id="@+id/txtJobDescription1"
+                    android:id="@+id/txtJobDescription2"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_5pxv"
                     android:layout_marginStart="@dimen/_8pxh"
@@ -284,7 +286,7 @@
                     style="@style/txtSatoshibold18_1" tools:text="@string/lbl_job_description"/>
             </LinearLayout>
             <TextView android:gravity="center_horizontal"
-                android:id="@+id/txtDescription1"
+                android:id="@+id/txtDescription2"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/_23pxv"
                 android:layout_marginEnd="@dimen/_20pxh"
@@ -294,7 +296,7 @@
                 android:text="@string/msg_in_a_ux_designe"
                 style="@style/txtSatoshiregular14" tools:text="@string/msg_in_a_ux_designe"/>
         </LinearLayout>
-        <LinearLayout android:id="@+id/linearColumnvectorOne1"
+        <LinearLayout android:id="@+id/linearColumnvectorOne2"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/_24pxh"
             android:layout_marginStart="@dimen/_24pxh"
@@ -302,7 +304,7 @@
             android:layout_width="match_parent"
             android:orientation="vertical" style="@style/groupStylebluegray_900cornerRadius">
             <LinearLayout android:gravity="start"
-                android:id="@+id/linearRowvectorOne1"
+                android:id="@+id/linearRowvectorOne2"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_20pxh"
                 android:layout_marginStart="@dimen/_20pxh"
@@ -310,7 +312,7 @@
                 android:layout_width="wrap_content" android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/btnVectorOne1"
+                    android:id="@+id/btnVectorOne2"
                     android:layout_width="@dimen/_40pxh"
                     android:layout_height="@dimen/_40pxh"
                     android:background="@drawable/rectangle_bg_white_a700_19_radius_8"
@@ -320,7 +322,7 @@
                     android:src="@drawable/img_vector_white_a700_40x40"
                     tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
                 <TextView android:ellipsize="end"
-                    android:id="@+id/txtSkillsRequir1"
+                    android:id="@+id/txtSkillsRequir2"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_5pxv"
                     android:layout_marginStart="@dimen/_8pxh"
@@ -332,7 +334,7 @@
                     style="@style/txtSatoshibold18_1" tools:text="@string/msg_skills_requir"/>
             </LinearLayout>
             <TextView android:gravity="center_horizontal"
-                android:id="@+id/txtDescriptionOne1"
+                android:id="@+id/txtDescriptionOne2"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/_20pxv"
                 android:layout_marginEnd="@dimen/_20pxh"
@@ -342,7 +344,7 @@
                 android:text="@string/msg_3_years_experie"
                 style="@style/txtSatoshiregular14" tools:text="@string/msg_3_years_experie"/>
         </LinearLayout>
-        <FrameLayout android:id="@+id/frameStackshape1"
+        <FrameLayout android:id="@+id/frameStackshape2"
             android:layout_gravity="center_horizontal"
             android:layout_height="@dimen/_48pxv"
             android:layout_marginBottom="@dimen/_29pxv"
@@ -350,7 +352,7 @@
             android:layout_marginStart="@dimen/_24pxh"
             android:layout_marginTop="@dimen/_123pxv" android:layout_width="@dimen/_382pxh">
             <View android:background="@color/white_A700"
-                android:id="@+id/viewShape1"
+                android:id="@+id/viewShape2"
                 android:layout_gravity="center"
                 android:layout_height="@dimen/_8pxv"
                 android:layout_marginBottom="@dimen/_20pxv"
@@ -359,7 +361,7 @@
                 android:layout_marginTop="@dimen/_20pxv" android:layout_width="@dimen/_324pxh"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:ellipsize="end" android:gravity="center"
-                android:id="@+id/btnSave1" android:layout_gravity="start"
+                android:id="@+id/btnSave2" android:layout_gravity="start"
                 android:layout_height="@dimen/_48pxv"
                 android:layout_marginEnd="@dimen/_10pxh"
                 android:layout_width="@dimen/_123pxh"
@@ -371,14 +373,14 @@
                 android:text="@string/lbl_save"
                 android:textAllCaps="false"
                 style="@style/btnSolidRounded" tools:text="@string/lbl_save"/>
-            <LinearLayout android:id="@+id/linearRowapplynow1"
+            <LinearLayout android:id="@+id/linearRowapplynow2"
                 android:layout_gravity="end"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_10pxh"
                 android:layout_width="match_parent"
                 android:orientation="horizontal" style="@style/groupStyledeep_purple_A400cornerRadius">
                 <TextView android:ellipsize="end"
-                    android:id="@+id/txtApplyNow1"
+                    android:id="@+id/txtApplyNow2"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_11pxv"
                     android:layout_marginStart="@dimen/_67pxh"
@@ -387,7 +389,7 @@
                     android:layout_width="0dp" android:singleLine="true"
                     android:text="@string/lbl_apply_now"
                     style="@style/txtSatoshibold16" tools:text="@string/lbl_apply_now"/>
-                <ImageView android:id="@+id/imageArrowleftOne1"
+                <ImageView android:id="@+id/imageArrowleftOne2"
                     android:layout_height="@dimen/_12pxh"
                     android:layout_marginBottom="@dimen/_17pxv"
                     android:layout_marginEnd="@dimen/_71pxh"
