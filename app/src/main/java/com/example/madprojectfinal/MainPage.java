@@ -3,12 +3,13 @@ package com.example.madprojectfinal;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
+import android.widget.Toast;
+import android.widget.Filter;
 import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
+import android.widget.SearchView;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -25,10 +26,12 @@ public class MainPage extends AppCompatActivity {
     private List<RowsTable> itemList;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage);
+
 
         // Initialize RecyclerView and its LayoutManager
         mrecyclerView = findViewById(R.id.RecyclerView);
@@ -50,8 +53,9 @@ public class MainPage extends AppCompatActivity {
         adapter = new Adapter(this, itemList);
         mrecyclerView.setAdapter(adapter);
 
-    }
 
-}
+        ;}}
+
+
 
 

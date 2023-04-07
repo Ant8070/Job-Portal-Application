@@ -17,16 +17,7 @@
             android:layout_marginStart="@dimen/_24pxh"
             android:layout_marginTop="@dimen/_69pxv"
             android:layout_width="wrap_content" android:orientation="horizontal">
-            <ImageButton android:id="@+id/imageArrowleft1"
-                android:layout_height="@dimen/_15pxh"
-                android:layout_marginBottom="@dimen/_5pxv"
-                android:layout_marginStart="@dimen/_3pxh"
-                android:background="#2b2b2b"
-                android:layout_marginTop="@dimen/_5pxv"
-                android:layout_width="@dimen/_20pxh"
-                android:scaleType="fitXY"
-                android:src="@drawable/img_arrowleft"
-                tools:ignore="ContentDescription" tools:src="@drawable/img_arrowleft"/>
+
             <TextView android:ellipsize="end"
                 android:id="@+id/txtJobDetails1"
                 android:layout_height="wrap_content"
@@ -92,6 +83,7 @@
                         android:text="@string/lbl_google"
                         style="@style/txtSatoshiregular12" tools:text="@string/lbl_google"/>
                     <Button
+                        android:id="@+id/button1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ellipsize="end"

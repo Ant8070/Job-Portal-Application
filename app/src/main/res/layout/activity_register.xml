@@ -14,7 +14,7 @@
             android:id="@+id/tv_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Jobify"
+            android:text="Register Now"
             android:textColor="#FCC636"
             android:textSize="50sp"
             android:fontFamily="@font/satoshibold"
@@ -26,7 +26,7 @@
             android:id="@+id/tv_subtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Job Nahi, toh Jobify hi sahi!"
+            android:text="Your Dream Job Awaits You!"
             android:textSize="17sp"
             android:textColor="#FFFFFF"
             android:fontFamily="@font/satoshi"
@@ -44,7 +44,7 @@
             android:layout_marginRight="20dp"
             android:background="@drawable/btn_custom"
             android:fontFamily="@font/satoshi"
-            android:text="Login"
+            android:text="Sign Up"
             android:textColor="@android:color/white" />
 
         <EditText
@@ -61,7 +61,8 @@
             android:inputType="textEmailAddress"
             android:padding="15dp"
             android:textSize="15sp"
-            android:textColor="@android:color/black"/>
+            android:textColor="@color/black_900"
+            android:textColorHint="@color/gray_800"/>
 
         <EditText
             android:id="@+id/ed2"
@@ -77,20 +78,18 @@
             android:inputType="textPassword"
             android:padding="15dp"
             android:textSize="15sp"
-            android:textColor="@android:color/black"/>
+            android:textColor="@color/black_900" android:textColorHint="@color/gray_800"/>
         <TextView
             android:id="@+id/tv2r"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20sp"
             android:gravity="center"
-            android:text="Register Instead"
+            android:text="Sign-In Instead"
             android:textSize="20sp"
             android:textColor="#FCC636"
             android:layout_below="@id/bt1"
             android:textStyle="bold"></TextView>
-
-
 
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

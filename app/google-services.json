@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "298462594722",
-    "project_id": "job-portal-application-aa692",
-    "storage_bucket": "job-portal-application-aa692.appspot.com"
+    "project_number": "956806497243",
+    "project_id": "job-portal-app-6fca5",
+    "storage_bucket": "job-portal-app-6fca5.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:298462594722:android:1cfeece7e9db2c645ef9fb",
+        "mobilesdk_app_id": "1:956806497243:android:6933427e58bcbc5b5d1dfe",
         "android_client_info": {
           "package_name": "com.example.madprojectfinal"
         }
       },
       "oauth_client": [
         {
-          "client_id": "298462594722-41r9m0jf795enceulnfl2u0ld0fgbjbe.apps.googleusercontent.com",
+          "client_id": "956806497243-7dfan3bb57qrvjr4e8fc3pa86b6d4667.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC5EutH_tKJgOOPRqMIvznQZU5JZ_MTcEM"
+          "current_key": "AIzaSyBagn4VUCEiSDqB8OnEd3z_5jcpOQv2A0A"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "298462594722-41r9m0jf795enceulnfl2u0ld0fgbjbe.apps.googleusercontent.com",
+              "client_id": "956806497243-7dfan3bb57qrvjr4e8fc3pa86b6d4667.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
