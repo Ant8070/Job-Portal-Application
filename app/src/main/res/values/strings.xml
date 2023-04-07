@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">MADProjectFinal</string>
+    <string name="web_client_id">298462594722-o2o9ciqujnlp6b5ilc3enc5pkd52drb3.apps.googleusercontent.com</string>
     <string name="loading">Loading…</string>
     <string name="no_internet_connection">No internet connection!</string>
     <string name="lbl_fulltime">Fulltime</string>
