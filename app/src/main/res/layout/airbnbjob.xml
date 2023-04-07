@@ -21,11 +21,11 @@
                 android:layout_marginStart="@dimen/_3pxh"
                 android:layout_marginTop="@dimen/_5pxv"
                 android:layout_marginBottom="@dimen/_5pxv"
-                android:background="null"
+                android:background="#2b2b2b"
                 android:scaleType="fitXY"
                 android:src="@drawable/img_arrowleft"
                 tools:ignore="ContentDescription,TouchTargetSizeCheck,SpeakableTextPresentCheck"
-                tools:src="@drawable/img_arrowleft" />
+                tools:src="@drawable/img_arrowleft"/>
             <TextView android:ellipsize="end"
                 android:id="@+id/txtJobDetails2"
                 android:layout_height="wrap_content"
